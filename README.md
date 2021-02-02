@@ -42,4 +42,4 @@ Visit [issues' section](https://github.com/AhmedAmin90/members-new-rails/issues)
 Give a :star2: if you like this project!
 
 ## License
-<p>This project is <a href="../feature/LICENSE">MIT</a> licensed.</p>
+<p>This project is <a href="../members-app/LICENSE">MIT</a> licensed.</p>

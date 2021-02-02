@@ -36,7 +36,7 @@ With this application, sing up people can write their secrets, anyone without an
 
 ## Contribute :point_left:
 Any advice and suggestion for improvement are more than welcome.
-Visit [issues' section](https://github.com/Milypm/micro-reddit/issues)
+Visit [issues' section](https://github.com/AhmedAmin90/members-new-rails/issues)
 
 ## Show your support
 Give a :star2: if you like this project!

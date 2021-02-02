@@ -1,24 +1,45 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# AUTHENTICATION: Members Only!
+ 
+> In this project, we created an exclusive clubhouse application using Ruby on Rails, including the model structure, associations, controllers, views, validations, and authentications, stylized with CSS.
+- Consists of two models: User, Post.
+- Only 'Sing Up' members are allowed to create posts and see others.
+- Only each user is allowed to edit and delete his post.
+With this application, sing up people can write their secrets, anyone without an account can see how to write the posts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<img src="./app/assets/images/index_no_log.jpeg">
 
-Things you may want to cover:
+## Built With
+- Ruby (v. 2.7.0)
+- Ruby on Rails (v. 6.1.1)
+- Rubocop
+- Git
+ 
+## Setup
+- Run 'bundle install'
+ 
+## How to run it
+* It's recommended to use Git's latest version.
+* Clone or download the repo from here [Members Only](https://github.com/AhmedAmin90/members-new-rails.git) on your local system.
+* Unzip/Open the root folder, on the command line/terminal:
+- Type: rails server / rails s
+ 
+## Authors
 
-* Ruby version
+**Ahmed Amin** :man_technologist:
+- GitHub: [@AhmedAmin90](https://github.com/AhmedAmin90)
+- LinkedIn: [Mily Puente](https://www.linkedin.com/in/web-developer/)
 
-* System dependencies
+**Gustavo Sanmartin** :bird:
+- GitHub: [@gasb150](https://github.com/gasb150)
+- LinkedIn: [Gustavo Sanmartin](https://www.linkedin.com/in/gustavsanmartin/)
 
-* Configuration
+## Contribute :point_left:
+Any advice and suggestion for improvement are more than welcome.
+Visit [issues' section](https://github.com/Milypm/micro-reddit/issues)
 
-* Database creation
+## Show your support
+Give a :star2: if you like this project!
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+<p>This project is <a href="../feature/LICENSE">MIT</a> licensed.</p>

@@ -28,7 +28,7 @@ With this application, sing up people can write their secrets, anyone without an
 
 **Ahmed Amin** :man_technologist:
 - GitHub: [@AhmedAmin90](https://github.com/AhmedAmin90)
-- LinkedIn: [Mily Puente](https://www.linkedin.com/in/web-developer/)
+- LinkedIn: [Ahmed Amin](https://www.linkedin.com/in/web-developer/)
 
 **Gustavo Sanmartin** :bird:
 - GitHub: [@gasb150](https://github.com/gasb150)

@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Posts</h1>
+<h1 class="title" >Posts</h1>
 
 <table>
   <thead>
@@ -15,7 +15,7 @@
        <%if user_signed_in? %>
         <td> <%= post.user.name %> </td>
         <% end %>
-        <td><p> <%= post.title %></p></td>
+        <td><h3> <%= post.title %></h3></td>
         <td><%= link_to 'Show', post %></td>
 
         <% if user_signed_in? && current_user.id == post.user_id %>
@@ -30,7 +30,7 @@
 </table>
 
 <br>
-
+<div class="footer">
 <%= link_to 'New Post', new_post_path %>
 
 
@@ -41,3 +41,4 @@
 <%= link_to 'Sign In', new_user_session_path %>
 <%= link_to 'Sign Up', new_user_registration_path %>
 <% end %>
+</div>

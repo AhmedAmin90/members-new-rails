@@ -1,0 +1,13 @@
+  <% @posts.each do |post| %>
+       <tr>
+       <%if user_signed_in? %>
+       
+        <td>  <h3> The secret Author name </h3> <p> <%= post.user.name %> </p> </td>
+        
+        <% end %>
+       
+        <td>  <h3> Post Title </h3> <p> <%= post.title %></p></td>
+        <td>  <h3> The post </h3> <p> <%= post.body %></p></td>
+        
+      </tr> 
+    <% end %>

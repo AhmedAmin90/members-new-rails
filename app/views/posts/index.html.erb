@@ -10,35 +10,11 @@
   </thead>
 
   <tbody>
-    <% @posts.each do |post| %>
-       <tr>
-       <%if user_signed_in? %>
-        <td> <%= post.user.name %> </td>
-        <% end %>
-        <td><h3> <%= post.title %></h3></td>
-        <td><%= link_to 'Show', post %></td>
-
-        <% if user_signed_in? && current_user.id == post.user_id %>
-
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <% end %>
-
-      </tr> 
-    <% end %>
+  <%= render 'feed'%>
   </tbody>
 </table>
 
 <br>
 <div class="footer">
-<%= link_to 'New Post', new_post_path %>
-
-
-
-<%if user_signed_in? %>
-<%= link_to "Logout", destroy_user_session_path, method: :delete %>
-<% else %>
-<%= link_to 'Sign In', new_user_session_path %>
-<%= link_to 'Sign Up', new_user_registration_path %>
-<% end %>
+<%= render 'footer'%>
 </div>
